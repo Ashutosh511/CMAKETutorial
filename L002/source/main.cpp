@@ -11,5 +11,5 @@ T add(T num1, T num2)
 int main(int argc, char *argv[])
 {
     std::cout<<"Hello from c++ 20 with cmake\n";
-    std::cout<<"The Sum of add(4,5) is:  "<<add(4,5)<<"\n";
+    std::cout<<"The Sum of add(4,5) is:  "<<add(4,50)<<"\n";
 }
