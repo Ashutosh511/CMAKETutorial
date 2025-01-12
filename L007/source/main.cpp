@@ -5,7 +5,10 @@
 
 int main(int argc, char ** argv)
 {
-    double result = add(2,70);
+    auto value = ((10 <=> 20) > 0);
+    std::cout<<std::boolalpha;
+    std::cout<<"The value is : "<<value<<std::endl;
+    double result = add(10,70);
     std::cout<<"result : "<<result<<std::endl;
 
     Dog dog1("jacky");
